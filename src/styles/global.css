@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Space between elements */
+}
+
+.left-content {
+  flex: 1;
+  margin-right: 4%; /* Right margin for tasks */
+}
+
+.clock-container {
+  flex: 1 1 40%; /* The clock will occupy at least 40% of the width */
+  min-width: 60%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center; /* Align horizontally to the center */
+  align-items: center; /* Align vertically to the center */
+}
+
+svg {
+  background-color: white;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  max-width: 400px; /* Maximum size of the clock */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 2%;
+  flex-grow: 1; /* Adds flexibility to the container */
+  max-width: 100%; /* Limits the maximum width */
+  box-sizing: border-box; /* Ensures padding and margin are calculated properly */
+}
+
+.recommendation h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  max-width: 100%; /* Ensures the element takes up the full width */
+}
+
+.recommendation p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+  max-width: 100%; /* Ensures the element takes up the full width */
+  box-sizing: border-box; /* Ensures padding and margin are calculated properly */
+}
+
+.current-task {
+  font-weight: bold;
+  color: #ff6f61;
+  background-color: #ffb6c1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hour-label {
+  font-size: 14px;
+  font-weight: 400;
+  fill: #333;
+}
+
+.current-time {
+  font-size: 36px;
+  font-weight: 600;
+  fill: #ff6f61; /* Fill property for SVG text */
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the dropdown menu */
+.language-select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.language-select:focus {
+  border-color: #ff6f61;
+}
+
+.language-select option {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  color: #333;
+}
+
+.language-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  fill: #333;
+  margin-bottom: 10px;
+  display: inline-block; /* To leave space under the selector */
+}
