@@ -1,18 +1,7 @@
-# create-svelte
+# Vacationing app
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+![App Example Japanese](https://github.com/shadowsupercoder/vacation-day-planner/blob/main/static/public/Screenshot%202024-10-15%20at%2004.20.09.png)
+![App Example English](https://github.com/shadowsupercoder/vacation-day-planner/blob/main/static/public/Screenshot%202024-10-15%20at%2004.20.19.png)
 
 ## Developing
 
